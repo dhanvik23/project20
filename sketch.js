@@ -93,18 +93,18 @@ function draw() {
     astronaut.velocityY = 0;
   }*/
 
-  if(keyDown("m")){
+  /*if(keyDown("m")){
     astronaut.changeAnimation("moving", move);
     astronaut.changeAnimation("moving");
     astronaut.velocityX = 1;
     astronaut.velocityY = 1;
-  }
+  }*/
 
-  /*if(keyDown("m")){
+  if(keyDown("m")){
     astronaut.addAnimation("moving", move);
     astronaut.changeAnimation("moving");
     astronaut.velocityX = 1;
     astronaut.velocityY = 1;
-  }*/
+  }
 
 }
